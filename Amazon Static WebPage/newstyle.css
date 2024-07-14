@@ -1,0 +1,244 @@
+#container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar1{
+    background-color: #131921;
+    height: 80px; 
+    display: flex;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo{
+    height: 50px;
+    width: 128px;
+    /* padding-top: 10px; */
+    padding-left: 5px;
+   
+}
+.location{
+    /* position: relative; */
+    color: white;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    
+}
+.location:hover{
+    border: 1px solid white;
+}
+.locationIcon{
+    margin-top: 20px;
+}
+.para1{
+    font-size: small;
+    color: #cccccc;
+}
+.para2{
+    font-size: large;
+}
+.amazonlogo:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.searchbar{
+    display: flex;
+    height: 55px;
+    width: 700px;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+/* .all{
+    height: 40px;
+    width: 50px;
+    color: #e6e6e6;
+} */
+.selectall{
+    height: 40px;
+    width: 50px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search{
+    height: 40px;
+    width: 600px;
+}
+.searchIcon{
+    height: 40px;
+    width: 35px;
+    align-content: center;
+    background-color: #f3a847;
+    padding-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#Language{
+    width: 40px;
+    background-color:transparent;
+    color: white;
+    border:none;
+    font-weight: bold;
+}
+.flag{
+    display: flex;
+    align-items: center;
+    height: 55px; 
+    margin: 0px 20px;
+}
+.flag:hover{
+    border:1px solid white;
+}
+#signin{
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    align-items: center;
+}
+.sign{
+    margin-top: 10px;
+    height: 14px;
+    width: 100px;
+}
+#Account{
+    background-color: transparent;
+    border: none;
+    width: 125px;
+    height:15px;
+    align-items: center;
+    font-weight: bold; 
+    color: white;
+}
+.accountclass{
+    height: 55px;
+    width: 128px;
+    color: white;
+    margin-right: 10px;
+}
+.accountclass:hover{
+    border:1px solid white;
+}
+.list{
+    color: black;
+}
+.order{
+    height: 50px;
+    color: white;
+    font-family: Arial;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+.order:hover{
+    
+    border:1px solid white;
+}
+
+.card{
+    display: flex;
+    height: 55px;
+    color: white;
+    margin-top: 5px;
+}
+.card:hover{
+    border:1px solid white; 
+}
+.cardword{
+    margin-top: 20px;
+    font-weight:bold ;
+}
+.navbar2{
+    margin-top: 5px 5px 5px 5px;
+    background-color: #232f3e;
+    height: 40px;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.list{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+}
+.All{
+    font-family: Arial;
+    font-size: 15px;
+    padding:10px 10px 0px 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.All:hover{
+    border:1px solid white;
+}
+.miniTV{
+    padding:10px 5px 0px 5px;
+    box-sizing: border-box;
+}
+.miniTV:hover{
+    border:1px solid white;
+}
+.sell{
+    padding:10px 8px 0px 8px;
+}
+.sell:hover{
+    border:1px solid white;
+}
+.bestseller{
+    padding:10px 8px 0px 8px;
+}
+.bestseller:hover{
+    border:1px solid white;
+}
+.mobile{
+    padding:10px 8px 0px 8px;
+}
+.mobile:hover{
+    border:1px solid white;
+}
+.today{
+    padding:10px 8px 0px 8px;
+}
+.today:hover{
+    border:1px solid white;
+}
+.fashion{
+    padding:10px 8px 0px 8px;
+}
+.fashion:hover{
+    border:1px solid white;
+}
+.electronics{
+    padding:10px 8px 0px 8px;
+}
+.electronics:hover{
+    border:1px solid white;
+}
+.prime{
+    padding:10px 8px 0px 8px;
+}
+.prime:hover{
+    border:1px solid white;
+}
+.new{
+    padding:10px 8px 0px 8px;
+    box-sizing: border-box;
+}
+.new:hover{
+    border:1px solid white;
+}
+.customer{
+    padding:10px 8px 0px 8px;
+}
+.customer:hover{
+    border:1px solid white;
+}
+.sisterhood{
+    padding:0px 0px 0px 110px;
+}
+.sisterhood:hover{
+    border:1px solid white;
+}

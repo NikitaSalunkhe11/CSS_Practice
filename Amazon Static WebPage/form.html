@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Forms</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form class="form">
+        <label for="name" class="inputtext">Enter the Name : </label>
+        <input type="text" placeholder="jon" required>
+        <br>
+        <br>
+        <label for="Email" class="inputtext">Enter E-mail Address</label>
+        <input type="text" placeholder="jon@gmail.com" required>
+        <br><br>
+        <label for="RollNo" class="inputtext">Enter Roll Number</label>
+        <input type="number" required>
+        <br><br>
+        <label for="rating" class="inputtext">How do you rate our cource</label>
+        <select name="rating">
+            <option value="Excellent">Excellent</option>
+            <option value="very good">very good</option>
+            <option value="good">good</option>
+            <option value="Average">Average</option>
+            <option value="Bad">Bad</option>
+        </select>
+        <br>
+        <br>
+        <label for="skill" class="inputtext">Your Favourite Topic in HTML</label> 
+        <br>
+        <input type="checkbox" name="topic1" value="HTML Elements">HTML Elements<br>
+        <input type="checkbox" name="topic2" value="HTML Elements">HTML Lists<br>
+        <input type="checkbox" name="topic3" value="HTML Elements">HTML Table<br>
+        <input type="checkbox" name="topic4" value="HTML Elements">HTML Media<br>
+        <input type="checkbox" name="topic5" value="HTML Elements">HTML Forms<br>
+        <br>
+        <br>
+        <label for="likeornot" class="inputtext">Do you like the HTML Cource</label>
+        <br>
+        <input type="radio" >Yes
+        <input type="radio" >No
+        <br>
+        <br>
+        <label for="fewwords">Few Words about Cource</label>
+        <br>
+        <textarea rows="6" cols="30" name="description" id="description"></textarea>
+        <br>
+        <br>
+        <input type="submit" onclick="alert('validating')" name="checking...">
+    </form>
+</body>
+</html>

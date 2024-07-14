@@ -1,0 +1,30 @@
+.heading{
+    color: blue;
+}
+.content{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(146, 239, 239);
+}
+.name{
+    font-style: italic;
+    text-align: end;
+    font-family: 'Courier New', Courier, monospace;
+    font-stretch: expanded;
+    direction: rtl;
+}
+.para{
+    align-items: center;
+    text-decoration: underline;
+    color:blueviolet;
+    text-align: center;
+    direction: ltr;
+    font-weight: 500;
+    font-size: medium;
+    margin-top: 20px;
+}
+.value{
+    text-shadow: 2px 2px 5px red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
