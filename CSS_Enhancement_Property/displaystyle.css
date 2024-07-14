@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(208, 208, 248);
+}
+h1{
+    color: blue;
+    font-weight: bold;
+}
+h2{
+    color: red;
+}
+.para1{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+}
+.para2{
+    color: blueviolet;
+}
+.para3{
+    text-align: end;
+    border: 2px solid black;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 10px blue;
+}
+.small{
+    text-align: justify;
+    position: sticky;
+    top:200px;
+}

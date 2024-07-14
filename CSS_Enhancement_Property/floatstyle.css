@@ -1,0 +1,17 @@
+.heading{
+    color: rgb(105, 50, 50);
+    text-shadow: 3px 3px 10px red;
+}
+.info{
+    padding: 10px;
+    text-align: justify;
+    color: rgb(63, 17, 17);
+}
+.image{
+    text-align: end;
+    height: 300px;
+    width: 500px;
+    float: inline-end;
+    margin: 10px;
+}
+
