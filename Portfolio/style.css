@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body{
+    color:#ededed; 
+    background-color: rgb(12, 51, 68);
+}
+.header{
+    display: flex;
+    margin:20px;
+    justify-content: space-between;
+
+}
+.logo{
+    align-items: flex-start;
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.navbar{
+    display: inline-block;
+    text-align: end;
+    align-items: end;
+    position: relative;
+    top:5px;
+    font-size: 16px;
+    font-weight: large;
+    align-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgb(203, 251, 246);
+    padding: 10px 0px 0px 20px;
+    text-shadow: 2px 2px 30px ;
+    margin-right: 10px;
+    align-content: center;
+}
+.item:hover{
+    text-decoration: underline;
+    animation-name:nav;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+@keyframes nav{
+    from{
+        font-size: 16px;
+    }
+    to{
+        font-size:17px;
+    }
+}
+
+.main{
+    display: flex;
+    margin-top:150px;
+    justify-content: space-between;
+}
+.content1{
+    height: 400px;
+    width:600px;
+    margin-left:30px;
+    /* margin-top:200px; */
+    align-content: center;
+    -ms-flex-item-align: center;
+    max-width: 600px;
+    max-height: 300px;
+}
+h3{
+    font-size: 23px;
+    font-weight: 300;
+}
+.span-txt:hover{
+    text-shadow: 10px 10px 40px aqua;
+}
+h1{
+    font-size: 40px;
+}
+.myself{
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+.Logos{
+    display: flex;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(159, 236, 236);
+    margin:10px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    color: rgb(123, 123, 200);
+    
+
+}
+.telelogo{
+    height: 35px;
+    width: 35px;
+}
+.wplogo{
+    height: 30px;
+    width: 47px;
+}
+.instlogo{
+    height: 35px;
+    width: 35px;
+}
+.linkedin{
+    height: 35px;
+    width: 35px;
+}
+.icon:hover{
+    box-shadow: 5px 5px 30px aqua;
+}
+.content2{
+    float: end;
+    height: 360px;
+    width: 340px;
+    box-shadow: 5px 5px 60px aqua;
+    box-sizing: content-box;
+    border-radius: 10%;
+    margin-right: 180px;
+    border-style: insert;
+}
+.myimg{
+    height:350Px;
+    width: 340px;
+    animation-name:mypic;
+}
+.myimg:hover{
+    box-shadow: 10px 10px 100px aqua;
+    border-style: insert;
+    border-radius: 10%;
+}
+
+.btn{
+    margin-top: 30px;
+    height: 50px;
+    width:200px;
+    background-color: rgb(106, 226, 226);
+}
+.more{
+    margin:30px;
+    color:black;
+    position: relative;
+    top: 14px;
+    padding: 10px 10px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 30px aqua;
+}

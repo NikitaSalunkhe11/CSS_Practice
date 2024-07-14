@@ -1,0 +1,29 @@
+.contanier{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    align-content: space-evenly;
+}
+.item{
+    height: 200px;
+    width: 200px;
+    margin:5px;
+}
+.item1{
+    
+    flex-grow: 1;
+    background-color: red;
+}
+.item2{
+    flex-grow: 2;
+    background-color: blue;
+}
+.item3{
+    flex-grow: 3;
+    background-color:yellow;
+}
+.item4{
+    flex-grow:4;
+    background-color: pink;
+}
