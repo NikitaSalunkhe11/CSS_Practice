@@ -6,13 +6,17 @@
 }
 body{
     color:#ededed; 
-    background-color: rgb(12, 51, 68);
+    background-color: rgb(6, 32, 44);
 }
 .header{
     display: flex;
     margin:20px;
     justify-content: space-between;
-
+}
+@media(max-width:768px){
+    .header{
+        flex-direction: column;
+    } 
 }
 .logo{
     align-items: flex-start;
@@ -24,7 +28,7 @@ body{
     
 }
 .navbar{
-    display: inline-block;
+    display:flex ;
     text-align: end;
     align-items: end;
     position: relative;
@@ -96,13 +100,14 @@ h1{
     width: 50px;
     border: 3px solid rgb(159, 236, 236);
     margin:10px;
+    padding-top: 7px;
     border-radius: 50%;
     text-align: center;
-    padding-top: 5px;
     font-size: 30px;
     color: rgb(123, 123, 200);
-    
-
+}
+.Insta{
+    color: aqua;
 }
 .telelogo{
     height: 35px;
@@ -129,34 +134,37 @@ h1{
     width: 340px;
     box-shadow: 5px 5px 60px aqua;
     box-sizing: content-box;
-    border-radius: 10%;
+    border-radius: 50%;
     margin-right: 180px;
     border-style: insert;
+    padding: 10px;
 }
 .myimg{
-    height:350Px;
+    height:360Px;
     width: 340px;
     animation-name:mypic;
+    border-radius: 50%;
+    border:2px solid white;
 }
 .myimg:hover{
     box-shadow: 10px 10px 100px aqua;
     border-style: insert;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 .btn{
-    margin-top: 30px;
     height: 50px;
     width:200px;
-    background-color: rgb(106, 226, 226);
+    background-color: rgb(203, 251, 246);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;  
 }
 .more{
-    margin:30px;
-    color:black;
-    position: relative;
-    top: 14px;
-    padding: 10px 10px;
+    color: black;
 }
+
 .btn:hover{
     box-shadow: 5px 5px 30px aqua;
 }
