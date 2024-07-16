@@ -28,7 +28,7 @@ body{
     
 }
 .navbar{
-    display:flex ;
+    display:flex;
     text-align: end;
     align-items: end;
     position: relative;
@@ -43,7 +43,8 @@ a{
     padding: 10px 0px 0px 20px;
     text-shadow: 2px 2px 30px ;
     margin-right: 10px;
-    align-content: center;
+    align-content: center;margin-bottom: 30px;
+    font-size: large;
 }
 .item:hover{
     text-decoration: underline;
@@ -55,10 +56,10 @@ a{
 }
 @keyframes nav{
     from{
-        font-size: 16px;
+        font-size: 20px;
     }
     to{
-        font-size:17px;
+        font-size:21px;
     }
 }
 
@@ -81,9 +82,25 @@ h3{
     font-size: 23px;
     font-weight: 300;
 }
+.span-txt{
+    animation: slideright 1s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 .span-txt:hover{
     text-shadow: 10px 10px 40px aqua;
 }
+@keyframes slideright {
+    from{
+        transform: translateX(-100px);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateX(1px);
+        opacity: 1;
+    }
+}
+
 h1{
     font-size: 40px;
 }
@@ -105,6 +122,7 @@ h1{
     text-align: center;
     font-size: 30px;
     color: rgb(123, 123, 200);
+    
 }
 .Insta{
     color: aqua;
@@ -127,6 +145,7 @@ h1{
 }
 .icon:hover{
     box-shadow: 5px 5px 30px aqua;
+    transform: translateY(-5px);
 }
 .content2{
     float: end;
@@ -147,7 +166,7 @@ h1{
     border:2px solid white;
 }
 .myimg:hover{
-    box-shadow: 10px 10px 100px aqua;
+    box-shadow: 10px 10px 100px rgb(63, 80, 212);
     border-style: insert;
     border-radius: 50%;
 }
@@ -167,4 +186,309 @@ h1{
 
 .btn:hover{
     box-shadow: 5px 5px 30px aqua;
+}
+
+
+
+
+/* ********************In About Context ************************************/
+.about{
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+.about-img{
+    -ms-flex-align: start;
+    height: 360px;
+    width: 340px;
+    box-shadow: 5px 5px 60px rgb(229, 130, 239);
+    box-sizing: content-box;
+    border-radius: 50%;
+    margin-right: 180px;
+    border-style: insert;
+    padding: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+.about-myimg{
+    height:360Px;
+    width: 340px;
+    animation-name:mypic;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.about-img:hover{
+    box-shadow: 5px 5px 100px rgb(228, 123, 207),
+    5px 5px 20px rgb(124, 38, 18);
+}
+.about-para{
+    font-weight:400;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-right: 50px;
+
+    line-height: 20px;
+}
+
+
+
+
+
+/*************************My Services******************************/
+
+
+
+.skills{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+.sk{
+    width: 260px;
+    height: 280px;
+    background-color:transparent;
+    text-align: start;
+    padding: 20px;
+    border-right: 1px solid aqua;
+    border-bottom: 1px solid aqua;
+    border-style: ridge;
+    box-shadow: 1px 1px 20px rgb(8, 108, 108),
+    1px 1px 20px rgb(11, 49, 144);
+    margin: 20px;
+    border-radius: 20%;
+}
+.skpara{
+    font-size:14px;
+    font-weight: 500;
+    font-style: normal;
+    -webkit-text-size-adjust: auto;
+
+}
+.sk:hover{
+    /* width: 270px;
+    height: 290px; */
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 20px rgb(41, 207, 207),
+    2px 2px 20px rgb(25, 25, 174);
+
+}
+.skbtn{
+    background-color: aqua;
+    font-size: 15px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+
+/***********************************MY Skills**********************/
+
+
+.techsk{
+    margin-top: 100px;
+    text-align: center;
+    background-color:transparent;
+}
+.techsk-HTML{
+    margin-top: 50px;
+}
+.HTML-contanier{
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    margin-left: 500px;
+}
+.html-line{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    margin-top:20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+@keyframes animate-html{
+    0%{
+        width: 0%;
+        box-shadow: 5px 5px 10px rgb(65, 200, 215);
+
+    }
+    100%{
+        width: 90%;
+        box-shadow: 5px 5px 80px rgb(45, 190, 198);
+    }
+}
+.html-inner-line{
+    height: 5px;
+    width: 90%;
+    background-color: aqua;
+    border-radius: 10px;
+    animation:animate-html;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+.css-line{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    margin-top:20px;
+    margin-left: 60px;
+    border-radius: 10px;
+
+}
+.css-inner-line{
+    height: 5px;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 10px;
+    animation:animate-css;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes animate-css{
+    0%{
+        width: 0%;
+        box-shadow: 5px 5px 10px rgb(65, 200, 215);
+
+    }
+    100%{
+        width: 80%;
+        stroke-dashoffset: -1;
+        box-shadow: 5px 5px 80px rgb(105, 217, 222);
+    }
+}
+.java-line{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    margin-top:20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.java-inner-line{
+    height: 5px;
+    width: 90%;
+    background-color: aqua;
+    border-radius: 10px;
+    animation:animate-java;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes animate-java{
+    0%{
+        width: 0%;
+        box-shadow: 5px 5px 10px rgb(65, 200, 215);
+
+    }
+    100%{
+        width: 90%;
+        box-shadow: 5px 5px 80px rgb(105, 217, 222);
+    }
+}
+.flutter-line{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    margin-top:20px;
+    margin-left: 43px;
+    border-radius: 10px;
+}
+.flutter-inner-line{
+    height: 5px;
+    width: 70%;
+    background-color: aqua;
+    border-radius: 10px;
+    animation:animate-flutter;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes animate-flutter {
+    0%{
+        width: 0%;
+        box-shadow: 5px 5px 10px rgb(65, 200, 215);
+
+    }
+    100%{
+        width: 70%;
+        box-shadow: 5px 5px 80px rgb(105, 217, 222);
+    }
+}
+.dart-line{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    margin-top:20px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.dart-inner-line{
+    height: 5px;
+    width: 65%;
+    background-color: aqua;
+    border-radius: 10px;
+    animation:animate-dart;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes animate-dart{
+    0%{
+        width: 0%;
+        box-shadow: 5px 5px 10px rgb(65, 200, 215);
+
+    }
+    100%{
+        width: 65%;
+        box-shadow: 5px 5px 80px rgb(105, 217, 222);
+    }
+}
+
+
+/**************************Professional Skilss***************************/
+.professional{
+    margin-top: 100px;
+    text-align: center;
+}
+.progress-bar{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+}
+.div1{
+    align-items: center;
+    display: flex;
+    width: 300px;
+}
+.outercom{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid rgb(2, 14, 14);
+}
+.communication{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid aqua;
 }
