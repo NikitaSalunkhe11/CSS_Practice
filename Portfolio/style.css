@@ -493,7 +493,7 @@ h1{
     width: 100px;
     border-radius: 50%;
     padding: 10px;
-    background: conic-gradient(rgb(238, 66, 135) 100deg, rgb(26, 92, 162) 0deg);
+    background: conic-gradient(rgb(42, 116, 159) 30deg, rgb(60, 215, 215) 0deg);
     box-shadow: 2px 2px 10px   rgb(225, 139, 180),
                 -2px -2px 10px rgb(139, 231, 241);
 }
@@ -511,6 +511,7 @@ h1{
 .percent-cre{
     font-weight: 600px;
     color: white;
+    font-size: 20px;
 }
 
 /* <<<<<<<<<<< 1 end >>>>>>>>>>>>>> */
@@ -551,7 +552,7 @@ h1{
 .percent-comm{
     font-weight: bold;
     color: white;
-    font-size: 20pxn ;
+    font-size: 20px;
 
 }
 
@@ -571,7 +572,7 @@ h1{
     width: 100px;
     border-radius: 50%;
     padding: 10px;
-    background: conic-gradient(rgb(238, 66, 135) 100deg, rgb(26, 92, 162) 0deg);
+    background: conic-gradient(rgb(42, 116, 159) 100deg, rgb(60, 215, 215) 0deg);
     box-shadow: 2px 2px 10px   rgb(225, 139, 180),
                 -2px -2px 10px rgb(139, 231, 241);
 }
@@ -612,7 +613,7 @@ h1{
     width: 100px;
     border-radius: 50%;
     padding: 10px;
-    background: conic-gradient(rgb(238, 66, 135) 100deg, rgb(26, 92, 162) 0deg);
+    background: conic-gradient(rgb(42, 116, 159) 60deg, rgb(60, 215, 215) 0deg);
     box-shadow: 2px 2px 10px   rgb(225, 139, 180),
                 -2px -2px 10px rgb(139, 231, 241);
 }
@@ -636,6 +637,290 @@ h1{
 }
 
 
+/******************  Projects *****************************************/
 
 
+.project{
+    margin-top: 200px;
+    text-align: center;
+}
+.project-content{
+    display: flex;
+    justify-content: center;  
+}
 
+.col1{
+    display: flex;
+    margin-top: 50px;
+    width: 360px;
+}
+.project1{
+    height: 300px;
+    width: 350px;
+    background-image: url(project1img.png);
+    background-size: contain;
+    box-shadow:  3px 3px 10px rgb(115, 220, 252),
+                 -3px 3px 10px rgb(166, 14, 166);
+    padding:30px;
+    border-radius: 20px;
+}
+.project1:hover{
+    transform: scale(1.03);
+    box-shadow:  5px 5px 10px rgb(115, 220, 252),
+                 -5px 5px 10px rgb(166, 14, 166);
+}
+.head1{
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.innercontext1{
+    padding: 10px;
+    height: 300px;
+    width: 550px;
+    /* background-image: linear-gradient(to right, rgba(16, 51, 60, 0), rgb(20, 125, 159)); */
+    margin-top: 109px;
+    border-top: 1px solid aqua;
+    animation-name: animate-project1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.innercontext1:hover{
+    transform: scale(1.03);
+    padding: 20px;
+}
+@keyframes animate-project1 {
+    from{
+        background-image: linear-gradient(to right, rgba(16, 51, 60, 0), rgb(20, 125, 159));
+    }
+    to{
+        background-image: linear-gradient(to right, rgba(56, 8, 53, 0), rgb(130, 47, 203));
+    }
+}
+.project1-para{
+    text-align: justify;
+    text-decoration-color: black;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+.project1-code{
+    margin-right: 90px;
+    /* padding-top: 20px; */
+    text-decoration: underline;
+}
+
+
+.col2{
+    display: flex;
+    margin-top: 50px;
+    width: 360px;
+}
+.project2{
+    height: 300px;
+    width: 350px;
+    background-image: url(project1img.png);
+    background-size: contain;
+    box-shadow:  3px 3px 10px rgb(115, 220, 252),
+                 -3px 3px 10px rgb(166, 14, 166);
+    padding:30px;
+    border-radius: 20px;
+}
+.project2:hover{
+    transform: scale(1.03);
+    box-shadow:  5px 5px 10px rgb(115, 220, 252),
+                 -5px 5px 10px rgb(166, 14, 166);
+}
+.head2{
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.innercontext2{
+    padding: 10px;
+    height: 300px;
+    width: 550px;
+    /* background-image: linear-gradient(to right, rgba(16, 51, 60, 0), rgb(20, 125, 159)); */
+    margin-top: 109px;
+    border-top: 1px solid aqua;
+    animation-name: animate-project2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.innercontext2:hover{
+    transform: scale(1.03);
+    padding: 20px;
+}
+@keyframes animate-project2 {
+    from{
+        background-image: linear-gradient(to left, rgba(56, 8, 53, 0), rgb(130, 47, 203));
+    }
+    to{
+        background-image: linear-gradient(to left, rgba(16, 51, 60, 0), rgb(20, 125, 159));
+    }
+}
+.project2-para{
+    text-align: justify;
+    text-decoration-color: black;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+.project2-code{
+    margin-right: 90px;
+    /* padding-top: 20px; */
+    text-decoration: underline;
+}
+
+
+.col3{
+    display: flex;
+    margin-top: 50px;
+    width: 360px;
+}
+.project3{
+    height: 300px;
+    width: 350px;
+    background-image: url(project1img.png);
+    background-size: contain;
+    box-shadow:  3px 3px 10px rgb(115, 220, 252),
+                 -3px 3px 10px rgb(166, 14, 166);
+    padding:30px;
+    border-radius: 20px;
+}
+.project3:hover{
+    transform: scale(1.03);
+    box-shadow:  5px 5px 10px rgb(115, 220, 252),
+                 -5px 5px 10px rgb(166, 14, 166);
+}
+.head3{
+    color:white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.innercontext3{
+    padding: 10px;
+    height: 300px;
+    width: 550px;
+    /* background-image: linear-gradient(to right, rgba(16, 51, 60, 0), rgb(20, 125, 159)); */
+    margin-top: 109px;
+    border-top: 1px solid aqua;
+    animation-name: animate-project3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.innercontext3:hover{
+    transform: scale(1.03);
+    padding: 20px;
+}
+@keyframes animate-project3{
+    from{
+        background-image: linear-gradient(to right, rgba(16, 51, 60, 0), rgb(20, 125, 159));
+    }
+    to{
+        background-image: linear-gradient(to right, rgba(56, 8, 53, 0), rgb(130, 47, 203));
+    }
+}
+.project3-para{
+    text-align: justify;
+    text-decoration-color: black;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+.project3-code{
+    margin-right: 90px;
+    /* padding-top: 20px; */
+    text-decoration: underline;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.contact-me{
+    margin-top: 200px;
+
+}
+.contact-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+ 
+}
+.leftside{
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+}
+.contact-text{
+    font-size: 60px;
+    padding: 20px;
+}
+.contact-para{
+    text-align: start;
+    padding-bottom: 20px;
+}
+.mob{
+    padding: 20px;
+    font-size: larger;
+}
+.align-icon{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.rightside{
+    margin:auto;
+}
+.myform{
+    
+}
+.decorinput{
+    height: 40px;
+    width:300px;
+    color: white;
+    background-color:transparent;
+    box-shadow: 1px 1px 5px aqua;
+    border-radius: 5px;
+    padding: 20px;
+    margin:10px;
+    font-size: 16px;
+}
+.textareadecor{
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px aqua;
+    color: white;
+    font-size: 16px;
+}
+.textareadecor:hover{
+    box-shadow: 2px 2px 10px rgb(243, 85, 167);
+}
+.decorinput:hover{
+    box-shadow: 2px 2px 10px rgb(243, 85, 167);
+}
+.submit{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    box-shadow: 2px 2px 10px aqua;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.submit:hover{
+    background-color: aqua;
+    color: black;
+    box-shadow: 2px 2px 40px aqua;
+}
