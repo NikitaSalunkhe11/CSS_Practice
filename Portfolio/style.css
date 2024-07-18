@@ -471,24 +471,171 @@ h1{
 .progress-bar{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
     justify-content: center;
+    margin-right: 350px;
+}
+.cretext{
+    margin-bottom: 20px;
 }
 .div1{
+    height: 200px;
+    width: 200px;
     align-items: center;
+    width: 600px;
+    justify-content: center;
     display: flex;
-    width: 300px;
+    flex-direction: column;
+}
+.outercre{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    background: conic-gradient(rgb(238, 66, 135) 100deg, rgb(26, 92, 162) 0deg);
+    box-shadow: 2px 2px 10px   rgb(225, 139, 180),
+                -2px -2px 10px rgb(139, 231, 241);
+}
+.creativity{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+    box-shadow: inherit 2px 2px 10px red,
+                inherit -2px -2px 10px blue;
+    background-color:transparent;
+}
+.percent-cre{
+    font-weight: 600px;
+    color: white;
+}
+
+/* <<<<<<<<<<< 1 end >>>>>>>>>>>>>> */
+
+
+.comtext{
+    margin-bottom: 20px;
+}
+.div2{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .outercom{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border:5px solid rgb(2, 14, 14);
+    padding: 10px;
+    background: conic-gradient(rgb(42, 116, 159) 120deg, rgb(60, 215, 215) 0deg);
+    box-shadow: 2px 2px 10px   rgb(225, 139, 180),
+                -2px -2px 10px rgb(139, 231, 241);
 }
 .communication{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+    box-shadow: inherit 2px 2px 10px red,
+                inherit -2px -2px 10px blue;
+    background-color:transparent;
+}
+.percent-comm{
+    font-weight: bold;
+    color: white;
+    font-size: 20pxn ;
+
+}
+
+
+.div3{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.outerpro{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border:5px solid aqua;
+    padding: 10px;
+    background: conic-gradient(rgb(238, 66, 135) 100deg, rgb(26, 92, 162) 0deg);
+    box-shadow: 2px 2px 10px   rgb(225, 139, 180),
+                -2px -2px 10px rgb(139, 231, 241);
 }
+.problem-sol{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+    box-shadow: inherit 2px 2px 10px red,
+                inherit -2px -2px 10px blue;
+    background-color:transparent;
+}
+.percent-pro{
+    font-weight: 600px;
+    color: white;
+}
+.protext{
+    margin-bottom: 20px;
+}
+
+
+
+
+.div4{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.outerteam{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    background: conic-gradient(rgb(238, 66, 135) 100deg, rgb(26, 92, 162) 0deg);
+    box-shadow: 2px 2px 10px   rgb(225, 139, 180),
+                -2px -2px 10px rgb(139, 231, 241);
+}
+.team-man{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+    box-shadow: inherit 2px 2px 10px red,
+                inherit -2px -2px 10px blue;
+    background-color:transparent;
+}
+.percent-team{
+    font-weight: 600px;
+    color: white;
+}
+.teamtext{
+    margin-bottom: 20px;
+}
+
+
+
+
+
